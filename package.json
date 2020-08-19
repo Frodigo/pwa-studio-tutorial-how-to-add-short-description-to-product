@@ -1,0 +1,20 @@
+{
+  "name": "@marcinkwiatkowski/pwa-studio-tutorial-how-to-add-short-description-to-product-page",
+  "version": "1.0.0",
+  "description": "Files for tutorial: How to add short description to product page ",
+  "author": "Marcin Kwiatkowski <contact@frodigo.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/short-description",
+    "packages/venia-ui-overwrites"
+  ],
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "react": "~16.9.0",
+    "react-router-dom": "~5.1.0"
+  },
+  "devDependencies": {
+  }
+}
