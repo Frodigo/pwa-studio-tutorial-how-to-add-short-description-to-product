@@ -3,9 +3,11 @@
 }
 
 .section {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    padding: 15px 0;
+    border-color: rgb(var(--venia-border));
+    border-style: solid;
+    border-width: 1px 0 1px;
+    margin: 0 1.5rem;
+    padding: 1.5rem 0;
 }
 
 .loader {

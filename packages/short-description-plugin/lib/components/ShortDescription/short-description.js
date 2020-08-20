@@ -11,7 +11,7 @@ const ShortDescription = props => {
     const { productSku } = props;
     const classes = mergeClasses(defaultClasses);
     const { queries } = productOperations;
-    const {getShortDescriptionQuery} = queries;
+    const { getShortDescriptionQuery } = queries;
 
     const { loading, error, data } = useQuery(getShortDescriptionQuery, {
         fetchPolicy: 'cache-and-network',
