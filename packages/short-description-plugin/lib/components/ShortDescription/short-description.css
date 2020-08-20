@@ -1,0 +1,13 @@
+.root {
+    margin: 15px 0;
+}
+
+.section {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 15px 0;
+}
+
+.loader {
+    opacity: 0.7;
+}

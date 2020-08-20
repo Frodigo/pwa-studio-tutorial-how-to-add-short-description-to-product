@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/short-description",
+    "packages/short-description-plugin",
     "packages/venia-ui-overwrites"
   ],
   "peerDependencies": {
