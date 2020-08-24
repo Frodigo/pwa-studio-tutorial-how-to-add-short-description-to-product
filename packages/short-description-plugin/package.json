@@ -1,7 +1,7 @@
 {
   "name": "@marcinkwiatkowski/short-description-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "PWA Studio Component which fetches short description of a product and displays it on a Storefront",
   "author": "Marcin Kwiatkowski <contact@frodigo.com>",
   "license": "MIT",
   "pwa-studio": {
@@ -14,5 +14,6 @@
     "@magento/venia-ui": "*",
     "react": "~16.9.0",
     "react-router-dom": "~5.1.0"
-  }
+  },
+  "main": "./lib/components/ShortDescription/index.js"
 }
